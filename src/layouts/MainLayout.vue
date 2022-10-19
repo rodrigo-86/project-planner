@@ -1,13 +1,13 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header elevated class="bg-primary text-white" height-hint="98">
+    <q-header elevated class="bg-green-10 text-white" height-hint="98">
       <q-toolbar align="center">
         <q-toolbar-title>
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
           </q-avatar>
-          Project Planner
+          Diploma Digital
         </q-toolbar-title>
       </q-toolbar>
 
@@ -22,13 +22,13 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white flex row">
-      <q-toolbar  align="center">
-        <q-toolbar-title>
-          <q-avatar>
+    <q-footer  style="height:30px;" elevated class="bg-green-10 text-white ">
+      <q-toolbar align="center"  >
+        <q-toolbar-title style="margin-top:-20px;">
+          <!-- <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-          </q-avatar>
-          <div>Centro de Desenvolvimento de Software - 2022</div>
+          </q-avatar> -->
+          <div style="font-size: 16px;">Centro de Desenvolvimento de Software - 2022</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
