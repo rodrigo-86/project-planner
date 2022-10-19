@@ -22,13 +22,13 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white">
-      <q-toolbar>
+    <q-footer elevated class="bg-grey-8 text-white flex row">
+      <q-toolbar  align="center">
         <q-toolbar-title>
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
           </q-avatar>
-          <div>Title</div>
+          <div>Centro de Desenvolvimento de Software - 2022</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
