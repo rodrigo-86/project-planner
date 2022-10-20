@@ -11,8 +11,10 @@
     </q-card-section>
 
     <q-card-actions align="right">
-      <q-btn flat>Action 1</q-btn>
-      <q-btn flat>Action 2</q-btn>
+      <!-- <q-btn flat>Action 1</q-btn>
+      <q-btn flat>Action 2</q-btn> -->
+      <q-btn flat color="green-10" icon="done" />
+      <q-btn flat color="green-10" icon="settings" />
     </q-card-actions>
 
   </q-card>
@@ -33,6 +35,7 @@
 .my-card {
   width: 100%;
   max-width: 350px;
+  border-left: 4px solid #4E6C50;
 }
 .my-card.complete {
   border-left: 4px solid #00ce89;

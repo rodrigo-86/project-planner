@@ -2,20 +2,20 @@
     "projects": [
       {
         "id": 1,
-        "title": "Create new homepage banner",
-        "details": "Lorem ipsum",
+        "title": "Rodrigo",
+        "details": "Diploma 0123456789",
         "complete": false
       },
       {
         "id": 2,
-        "title": "Make marketing email",
-        "details": "Lorem ipsum",
+        "title": "Fulano",
+        "details": "Diploma 9874563210",
         "complete": false
       },
       {
         "id": 3,
-        "title": "learn how to code",
-        "details": "Lorem ipsum",
+        "title": "Chiquinha",
+        "details": "Diploma 852369741",
         "complete": false
       }
     ]
